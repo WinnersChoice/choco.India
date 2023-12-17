@@ -394,7 +394,7 @@ body {
 
 .responsive-image {
   max-width: 100%;
-  width: 30%;
+  width: 60%;
   height: auto;
   border-radius: 15px;
   margin-right: 25%;
@@ -417,7 +417,6 @@ body {
   max-width: 100%;
   height: auto;
   width: 358px;
-  height: 358px;
 }
 
 .textbox {
@@ -790,7 +789,7 @@ body {
   }
 
   .im1 {
-      max-width: 100%; /* Adjust the maximum width for better responsiveness */
+      max-width: 80%; /* Adjust the maximum width for better responsiveness */
   }
 
   .image-text {
@@ -833,6 +832,7 @@ body {
   margin: 0;
 }
 .endImages {
+  display: flex;
   flex-direction: column; /* Stack images vertically on small screens */
   align-items: center; /* Center images horizontally on small screens */
   margin-left: 0%;
@@ -849,7 +849,7 @@ body {
 .T56 {
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .T57 {
@@ -873,8 +873,13 @@ body {
      
 }
 .text-container{
-      margin-bottom: 75%;
+      margin-bottom: 25%;
       margin-right: 5%;
+      font-size: 5vw;
+}
+.I img {
+  max-width: 200px; 
+  max-height: 200px;
 }
 
 
@@ -884,6 +889,9 @@ body {
       .contains {
           display: none; /* Hide the entire container on small screens */
       }
+      img.log {
+        max-width: 75%;
+    }      
     }
 
 
